@@ -8,7 +8,7 @@ class hello
         System.out.println("Enter no. of views you got");
         double views = sc.nextDouble();
         double income_per_video = (money/views)*1000;
-        System.out.println("You earned per video is "+ income_per_video+ "$");
+        System.out.println("You earned per views is "+ income_per_video+ "$");
         sc.close();
     }
     public static void error(){
